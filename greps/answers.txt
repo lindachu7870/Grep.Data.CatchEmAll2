@@ -1,15 +1,62 @@
 # Part 1
 ### a)
-
-
-
+grep beed filescan_00.1 >> ../captured/beedrill.txt
+grep blas filescan_00.1 >> ../captured/blastoise.txt
+grep bulb filescan_00.1 >> ../captured/bulbasaur.txt
+grep butt filescan_00.1 >> ../captured/butterfree.txt
+grep izard$ filescan_00.2 >> ../captured/charizard.txt
+grep meleon$ filescan_00.2 >> ../captured/charmeleon.txt
+grep mander$ filescan.00.2 >> ../captured/charmander.txt
+grep ^ivys filescan.003 >> ../captured/ivysaur.txt
+grep ^jigg filescan.003 >> ../captured/jigglypuff.txt
+grep ^meow filescan.003 >> ../captured/meowth.txt
+grep ^pika filescan.003 >> ../captured/pikachu.txt
+grep psyd filescan.004 >> ../captured/psyduck.txt
+grep squi filescan.004 >> ../captured/squirtle.txt
+grep venu filescan.004 >> ../captured/venusaur.txt
+grep wart filescan.004 >> ../captured/wartortle.txt
 
 ### b)
-
+beedrill.txt
+blastoise.txt
+bulbasaur.txt
+butterfree.txt
+charizard.txt
+charmeleon.txt
+charmander.txt
+ivysaur.txt
+jigglypuff.txt
+meowth.txt
+pikachu.txt
+psyduck.txt
+squirtle.txt
+venusaur.txt
+wartortle.txt
 
 
 ### c)
+filescan_00.1
+	> beedrill
+	> blastoise
+	> bulbasaur
+	> butterfree
 
+filescan_00.2
+	> charizard
+	> charmeleon
+	> charmander
+
+filescan_00.3
+	> ivysaur
+	> jigglypuff
+	> meowth
+	> pikachu
+
+filescan_00.4
+	> psyduck
+	> squirtle
+	> venusaur
+	> wartortle
 
 
 
@@ -24,14 +71,16 @@
 
 # Part 2
 ### a)
-
+# of Pokemon = 14
+grep zcw * | wc -l
 
 
 
 
 
 ### b)
-
+Biggest Pokemon(all 40 lines): Pikachu, Beedrill, Charizard
+> wc -l * | sort to get the number of lines for each captured pokemon file.
 
 
 
